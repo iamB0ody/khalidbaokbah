@@ -1,12 +1,12 @@
 @font-face {
-  font-family: 'Ray-Bold';
-  src: url('../fonts/Estedad-v7.3/webfonts/statics/Estedad-SemiBold.woff2'); 
+  font-family: "Ray-Bold";
+  src: url("../fonts/Estedad-v7.3/webfonts/statics/Estedad-SemiBold.woff2");
   /* src: url('../fonts/Mikhak-v3.4/webfonts/statics/Mikhak-Medium.woff2'); */
   /* src: url('../fonts/Mikhak-v3.4/webfonts/variable/Mikhak[DSTY,KSHD,wght].woff2'); */
 }
 
 body {
-  font-family: 'Ray-Bold' !important;
+  font-family: "Ray-Bold" !important;
   text-align: right !important;
   font-size: 1.2rem !important;
 }
@@ -218,7 +218,7 @@ p {
     transform: translate(390px, 0) !important;
   }
 
-  .sidebar-collapse > a[aria-expanded='false'] {
+  .sidebar-collapse > a[aria-expanded="false"] {
     -webkit-transform: translate(390px, 0) !important;
     transform: translate(390px, 0) !important;
   }
@@ -232,4 +232,8 @@ p {
 
 .sidebar-collapse > a {
   right: 100% !important;
+}
+
+.ltr {
+  direction: ltr;
 }
